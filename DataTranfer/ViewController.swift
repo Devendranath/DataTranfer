@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         let svc = segue.destination as! SecondViewController
         svc.userName = userNameTF.text!
     }
-    
+     
     @IBAction func movedBack(segue: UIStoryboardSegue) {
         print("Moved back from 2 to 1")
         let svc = segue.source as! SecondViewController
